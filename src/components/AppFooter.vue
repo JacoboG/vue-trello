@@ -1,6 +1,6 @@
 <template>
   <footer>
-    <span>💻 with 💖 $amp; <a href="//vuejs.org">Vue.js</a> in México</span>
+    <span>💻 with 💖 &amp; <a href="//vuejs.org">Vue.js</a> in México</span>
   </footer>
 </template>
 
