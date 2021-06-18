@@ -10,7 +10,7 @@
     />
     <div class="container">
         <column
-        v-for="(list, index) in boardList"
+        v-for="(list, index) in boardLists"
         :key="index"
         :listId="list.id"
         :name="list.name">
@@ -47,7 +47,7 @@ export default {
     ...mapGetters([
       'getListsByBoard'
     ]),
-    boardList () {
+    boardLists () {
       return this.getListsByBoard(this.id)
     }
   },
