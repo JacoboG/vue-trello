@@ -55,7 +55,7 @@ export default {
 
   // Crear un nueva lista de tareas
   [types.ADD_COLUMN] (state, { column }) {
-    Vue.set(state.columns, column.id, column)
+    Vue.set(state.lists, column.id, column)
   },
 
   // Añadir una nueva tarea a una lista
